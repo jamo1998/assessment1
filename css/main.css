@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 25%;
+}
+
+.container {
+  max-width: 400px;
+  text-align: center;
+}
+
+#counter {
+  font-weight: bold;
+  position: relative;
+  right: 0px;
+  margin-bottom: 100px;
+  font-size: 80px;
+}
+
+#increment {
+  display: inline;
+  border: 3px solid gray;
+  border-radius: 7px;
+  font-size: 40px;
+  text-align: center;
+  width: 70px;
+  padding: 10px 45px;
+}
+
+button {
+  font-size: 40px;
+  padding: 10px 25px;
+  border: 3px solid gray;
+  background-color: gray;
+  border-radius: 7px;
+  color: white;
+}
+
+.red {
+  color: red;
+}
